@@ -1,0 +1,51 @@
+{
+  "name": "rental-management-api",
+  "version": "1.0.0",
+  "description": "Rental Management System REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --tls-min-v1.0 index.js",
+    "dev": "nodemon --tls-min-v1.0 index.js",
+    "debug": "node --tls-min-v1.0 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ONS",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.19.0",
+    "cookie-parser": "1.4.5",
+    "cors": "2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "8.2.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^6.0.1",
+    "hogan": "1.0.2",
+    "jsonwebtoken": "8.5.1",
+    "moment": "^2.30.1",
+    "multer": "^1.4.4",
+    "mysql2": "^3.11.4",
+    "node-cron": "^3.0.3",
+    "node-mailer": "^0.1.1",
+    "node-modules": "^1.0.1",
+    "nodemailer": "^6.10.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.3",
+    "queue": "^6.0.1",
+    "razorpay": "^2.9.6",
+    "server": "file:",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
